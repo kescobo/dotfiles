@@ -114,17 +114,24 @@ source $ZSH/oh-my-zsh.sh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
 #
-# Example aliases
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
+
+# Git aliases
 alias gitlog="git log --graph --abbrev-commit --pretty=oneline"
+alias gst="git status"
+alias lg="lazygit" # https://github.com/jesseduffield/lazygit
+
+# lsd aliases
+# https://github.com/Peltoche/lsd/
 alias ls="lsd --group-dirs first"
 alias lc="lsd --classic"
 alias ll="lsd -l --group-dirs first"
 alias la="lsd -A --group-dirs first"
 alias lt="lsd --tree"
+
+# https://github.com/sharkdp/fd
 alias fd="fdfind"
 
+# https://direnv.net/
 eval "$(direnv hook zsh)"
 
 
