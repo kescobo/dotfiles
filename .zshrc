@@ -131,6 +131,12 @@ alias lt="lsd --tree"
 # https://github.com/sharkdp/fd
 alias fd="fdfind"
 
+# https://github.com/sharkdp/bat
+alias cat="bat"
+
+# https://github.com/eth-p/bat-extras/blob/master/doc/batman.md
+alias man="batman"
+
 # https://direnv.net/
 eval "$(direnv hook zsh)"
 
