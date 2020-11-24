@@ -137,6 +137,19 @@ alias cat="bat"
 # https://github.com/eth-p/bat-extras/blob/master/doc/batman.md
 alias man="batman"
 
+# {Task/Time}warrior
+# https://taskwarrior.org
+# https://timewarrior.net/
+alias tk="task"
+alias tka="task add"
+alias tkd="task done"
+alias tkm="task modify"
+
+alias tm="timew"
+alias tms="timew start"
+alias tme="timew stop"
+alias tmsum="timew summary"
+
 # https://direnv.net/
 eval "$(direnv hook zsh)"
 
