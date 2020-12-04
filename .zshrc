@@ -12,6 +12,7 @@ fi
 export ZSH="/home/kevin/.oh-my-zsh"
 export PATH=/opt/miniconda3/bin:$PATH
 export PATH=$PATH:$HOME/bin
+export PATH=$PATH:$HOME/.local/bin
 export PATH=/home/linuxbrew/.linuxbrew/bin:$PATH
 
 
@@ -130,6 +131,9 @@ alias lt="lsd --tree"
 
 # https://github.com/sharkdp/fd
 alias fd="fdfind"
+
+# https://github.com/randy3k/radian
+alias r="radian"
 
 # https://direnv.net/
 eval "$(direnv hook zsh)"
