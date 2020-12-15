@@ -135,7 +135,7 @@ alias fd="fdfind"
 # https://github.com/randy3k/radian
 alias r="radian"
 # https://github.com/sharkdp/bat
-alias cat="bat"
+alias cat="batcat"
 
 # https://github.com/eth-p/bat-extras/blob/master/doc/batman.md
 alias man="batman"
